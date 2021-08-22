@@ -1,11 +1,11 @@
-# colab-katago
+# colab-katago-gd
+
+This program has been modified from the original colab-katago to store SSH information on Google Drive.
+
 See how to use:   
 
 **English Version**  
-https://colab.research.google.com/drive/1sKv4QHdB6P-fSNMIhZkaC5gti6qhHDeC?usp=sharing 
-
-**Chinese Version**  
-https://colab.research.google.com/drive/19dVa5Pq1Iehf_iND4Je8FK8oCRFqQkh8?usp=sharing
+TODO: Under Constuction
 
 # Build
 ```

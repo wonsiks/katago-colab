@@ -90,17 +90,17 @@ const (
 func main() {
 	args := os.Args[1:]
 	if len(args) < 2 {
-		log.Printf("ERROR usage: colab-katago USER_NAME USER_PASSWORD")
+		log.Printf("ERROR usage: colab-katago SSH_INFO_GOOGLE_DRIVE_FILE_ID USER_PASSWORD")
 		return
 	}
-	username := args[0]
+	fileId := args[0]
 	userpassword := args[1]
 	var newConfig *string = nil
 	if len(args) >= 3 {
 		newConfig = &args[2]
 	}
-	log.Printf("INFO using user name: %s password: %s\n", username, userpassword)
-	sshJSONURL := "https://kata-config.oss-cn-beijing.aliyuncs.com/" + username + ".ssh.json"
+	log.Printf("INFO using file ID: %s password: %s\n", fileId, userpassword)
+	sshJSONURL := "https://drive.google.com/uc?id=" + fileId
 	response, err := DoHTTPRequest("GET", sshJSONURL, nil, nil)
 	if err != nil {
 		log.Printf("ERROR error requestting url: %s, err: %+v\n", sshJSONURL, err)
