@@ -5,7 +5,7 @@ This program has been modified from the original colab-katago to store SSH infor
 See how to use:   
 
 **English Version**  
-TODO: Under Constuction
+https://colab.research.google.com/github/mildinvestor/katago-colab/blob/master/colab_katago_gd_en.ipynb
 
 # Build
 ```
