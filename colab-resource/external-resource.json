@@ -1,6 +1,6 @@
 {
-    "CUDA": "https://github.com/wonsiks/katago-colab/releases/download/v1.10.0/katago_cuda",
-    "OPENCL": "https://github.com/wonsiks/katago-colab/releases/download/v1.10.0/katago_opencl",
+    "CUDA": "https://github.com/wonsiks/katago-colab/releases/download/v1.11.0/katago_cuda",
+    "OPENCL": "https://github.com/wonsiks/katago-colab/releases/download/v1.11.0/katago_opencl",
     "60b": "https://media.katagotraining.org/uploaded/networks/models/kata1/kata1-b60c320-s4577723904-d2458479936.bin.gz",
     "40b": "https://media.katagotraining.org/uploaded/networks/models/kata1/kata1-b40c256-s10150379520-d2474366098.bin.gz",
     "30b": "https://github.com/lightvector/KataGo/releases/download/v1.4.5/g170-b30c320x2-s4824661760-d1229536699.bin.gz",
