@@ -10,5 +10,5 @@
     "15b": "https://github.com/wonsiks/katago-colab/releases/download/v1.9.1/KataGo15b.gz",
     "10b": "https://github.com/wonsiks/katago-colab/releases/download/v1.9.1/KataGo10b.gz",
     "6b": "https://github.com/wonsiks/katago-colab/releases/download/v1.9.1/KataGo6b.gz",
-    "ngrok": "https://github.com/wonsiks/katago-colab/releases/download/v1.9.1/ngrok"
+    "ngrok": "https://github.com/wonsiks/katago-colab/releases/download/v1.14.0/ngrok"
 }
